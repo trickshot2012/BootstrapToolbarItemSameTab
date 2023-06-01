@@ -36,7 +36,7 @@
                             </dx:BootstrapMenuItem>
                         </Items>
                     </dx:BootstrapMenu>
-          
+
                 </div>
             </div>
         </nav>
@@ -44,24 +44,24 @@
         <div class="container">
             <asp:ContentPlaceHolder ID="Content" runat="server">
             </asp:ContentPlaceHolder>
-                      <dx:BootstrapToolbar runat="server" ClientInstanceName="HeaderToolbar" ID="BootstrapToolbar1">
-                        <CssClasses Control="demo-header-toolbar p-2 justify-content-end"
-                            Item="demo-btn-custom-state active-highlight idle-highlight" />
-                        <SettingsAdaptivity MinRootItemsCount="4" EnableAutoHideRootItems="true" Enabled="true" />
-                        <SettingsBootstrap RemoveItemBackgrounds="true" />
-                        <Items>
+            <dx:BootstrapToolbar runat="server" ClientInstanceName="HeaderToolbar" ID="BootstrapToolbar1">
+                <CssClasses Control="demo-header-toolbar p-2 justify-content-end"
+                    Item="demo-btn-custom-state active-highlight idle-highlight" />
+                <SettingsAdaptivity MinRootItemsCount="4" EnableAutoHideRootItems="true" Enabled="true" />
+                <SettingsBootstrap RemoveItemBackgrounds="true" />
+                <Items>
 
-               
 
-                            <dx:BootstrapToolbarItem Name="show_notifications" IconCssClass="demo-icon demo-icon-alert" ToolTip="google" NavigateUrl="https://www.google.com" Target="_blank" CssClass="rounded-circle shadow ml-2 demo-item-wb">
-                                <Badge Text="1" CssClass="demo-badge-floating bg-danger text-white" />
-                            </dx:BootstrapToolbarItem>
-                            <dx:BootstrapToolbarItem Name="show_messages" IconCssClass="demo-icon demo-icon-mail" ToolTip="yahoo" NavigateUrl="https://www.yahoo.com" Target="_blank" CssClass="rounded-circle shadow ml-2 demo-item-wb">
-                                <Badge Text="0" CssClass="demo-badge-floating bg-info text-white" />
-                            </dx:BootstrapToolbarItem>
 
-                        </Items>
-                    </dx:BootstrapToolbar>
+                    <dx:BootstrapToolbarItem Name="show_notifications" IconCssClass="demo-icon demo-icon-alert" ToolTip="google" NavigateUrl="https://www.google.com" Target="_blank" CssClass="rounded-circle shadow ml-2 demo-item-wb">
+                        <Badge Text="1" CssClass="demo-badge-floating bg-danger text-white" />
+                    </dx:BootstrapToolbarItem>
+                    <dx:BootstrapToolbarItem Name="show_messages" IconCssClass="demo-icon demo-icon-mail" ToolTip="yahoo" NavigateUrl="https://www.yahoo.com" Target="_blank" CssClass="rounded-circle shadow ml-2 demo-item-wb">
+                        <Badge Text="0" CssClass="demo-badge-floating bg-info text-white" />
+                    </dx:BootstrapToolbarItem>
+
+                </Items>
+            </dx:BootstrapToolbar>
             <hr>
 
             <footer>
